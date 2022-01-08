@@ -24,6 +24,9 @@ class Budgets {
   @Column()
   status: string;
 
+  @Column()
+  barCode: string;
+
   @CreateDateColumn()
   created_at: Date;
 
