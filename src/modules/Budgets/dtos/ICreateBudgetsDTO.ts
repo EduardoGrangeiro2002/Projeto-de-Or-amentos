@@ -1,6 +1,4 @@
-class Budgets {
-  id: string;
-
+interface ICreateBudgetsDTO {
   cep: string;
 
   number: string;
@@ -12,6 +10,8 @@ class Budgets {
   parts: string[];
 
   status: string;
+
+  barCode: string;
 }
 
-export { Budgets };
+export { ICreateBudgetsDTO };
