@@ -11,7 +11,9 @@ interface ICreateBudgetsDTO {
 
   status: string;
 
-  barCode: string;
+  barCode: number;
+
+  id?: string;
 }
 
 export { ICreateBudgetsDTO };
