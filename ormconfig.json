@@ -1,0 +1,14 @@
+{
+    "type": "postgres",
+    "port": 5432,
+    "host": "localhost", 
+    "username": "docker",
+    "password": "Alkindar",
+    "database": "budgets", 
+    "synchronize": "true",
+    "migrations": ["./src/database/migrations/*.ts"],
+    "entities": ["./src/modules/**/Entities/*.ts"],
+    "cli": {
+      "migrationsDir": "./src/database/migrations"
+    }
+  }
