@@ -19,7 +19,7 @@ class Budgets {
   cnpj: string;
 
   @Column()
-  parts: string[];
+  parts: string;
 
   @Column()
   status: string;
